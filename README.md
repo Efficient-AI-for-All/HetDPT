@@ -2,8 +2,6 @@
 
 Official public code cleanup for **HetDPT: Rethinking Depth Pruning for Vision Transformers: A Heterogeneity-Aware Perspective**.
 
-This repository is organized for GitHub readers: the original supplementary code has been flattened into clear entry points plus a small `hetdpt/` helper package. The original codebase called the project BoundaryDPT in a few places; the public-facing name is unified here as **HetDPT** to match the accepted paper.
-
 ## What is included
 
 - Stage 1 Step 1 candidate fine-tuning: `train_stage1_step1.py`
