@@ -37,7 +37,6 @@ evaluate.py               # top-1 accuracy evaluation
 measure_throughput.py     # throughput measurement
 hetdpt/                   # shared implementation modules
 scripts/                  # readable command templates
-docs/MIGRATION.md         # old-to-new file mapping
 ```
 
 ## Quick evaluation example
@@ -85,8 +84,3 @@ Important parameters:
 - `--prune_layer_act`: activation-layer indices removed by HetDPT.
 - `--output_dir`: output directory for logs and checkpoints.
 
-## Notes
-
-- Full ImageNet retraining is intentionally not part of this cleanup validation.
-- HetDPT+ is discussed in the paper but unprepared code is not fabricated in this release.
-- The source supplementary directory is preserved separately; see `docs/MIGRATION.md` for the mapping.
